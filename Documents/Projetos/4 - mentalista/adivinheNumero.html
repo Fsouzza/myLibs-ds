@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+
+<input></input>
+<button>Chutar</button>
+
+<script>
+
+	var numSecreto = Math.round(Math.random() * 10);
+	var chute = document.querySelector("input");
+	chute.focus();
+
+
+function verificar() {
+
+	
+	if(chute.value == numSecreto){
+		alert("Voce acertou!")
+	} else{
+		alert("Voce errou!!!!")
+	}
+
+		chute.value = "";
+		chute.focus();
+}
+
+
+	var chutar = document.querySelector("button");
+	chutar.onclick = verificar;
+
+</script>

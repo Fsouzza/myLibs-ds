@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+footer {
+    margin-bottom: 10px;
+    position: absolute;
+    left: 17px;
+    bottom: 12px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(180deg,#baf8f5,rgb(122, 184, 209));
+    height: 100vh;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgb(0,0,0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.botao{
+    height: 50px;
+    width: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    margin: 4px;
+    color: #fff
+}
+
+.botao:hover{
+    background-color: gray;
+}
+
+
+#resultado{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+    width: 263px;
+    height: 40px;
+    margin: 6px;
+    font-size: 25px;
+    color: black;
+    text-align: center, right;
+}
+
+h2{
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.vezes{
+    height: 50px;
+    width: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #0cd0cd;
+    border: none;
+    margin: 4px;
+    color: #fff
+}
+
+.vezes:hover{
+   background-color: #057a78;
+}
+
+
+.menos{
+    height: 50px;
+    width: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #8c52ff;
+    border: none;
+    margin: 4px;
+    color: #fff 
+}
+
+.menos:hover{
+    background-color: #c02dc5;
+}
+
+.mais{
+    height: 50px;
+    width: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    margin: 4px;
+    color: #fff
+}
+
+.mais:hover{
+    background-color: rgba(255, 145, 0, 0.733);
+}
+
+.igual{
+    height: 50px;
+    width: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #aad800;
+    border: none;
+    margin: 4px;
+    color: #fff
+}
+
+.igual:hover{
+    background-color: rgb(14, 216, 58);
+}
+
+strong {
+    background-color: #060146;
+    color: white;
+    padding: 0 7px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}

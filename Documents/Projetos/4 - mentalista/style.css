@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+:root{
+    --red: #FF142D;
+    --green: #00A651;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+   justify-items: center;
+    padding: 20px;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000814e1;
+    color: #f8f7ff;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.8rem;
+    background-color: #f8f7ff;
+    color: #000814;
+    padding: 0 10px
+}
+   
+
+#restart{
+    margin-top: 0;
+    font-size: 32px;
+    background-size: 20px;
+    transition: transform .5s;
+    position: absolute;
+    bottom: 50px;
+    left: 942px;
+    border: none;
+}
+
+.alura-logo {
+    width: 55px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .grade{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-gap: 40px;
+    grid-template-rows: 90px 90px 90px 90px;
+    position: absolute;
+    left: 49.5%;
+    top: 266px;
+    transform: translate(-50%);
+  }
+
+  .grade-carta{
+    max-height: 110px;
+  }
+  
+  
+  .grade-carta:hover, #restart:hover {
+    transform: scale(1.1);
+    cursor: pointer;}
+  
+#texto-tentativas{
+    margin-top: 600px;
+}
+
+footer {
+    margin-bottom: 10px;
+    position: absolute;
+    left: 17px;
+    bottom: 12px;
+}
+
+strong {
+    background-color: #adaaa6;
+    color: #000814;
+    padding: 0 7px;
+}
+
+.page-logo{
+    margin-left: 195px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#texto-tentativas{
+    position: absolute;
+    bottom: 746px;
+    left: 873px;
+    font-size: 25px;
+}
+
+#texto-escolhida{
+    position: absolute;
+    bottom: 170px;
+    left: 845px;
+}
+
+#texto-resultado{
+    position: absolute;
+    bottom: 130px;
+    left: 685px;
+    align-items: center;
+}

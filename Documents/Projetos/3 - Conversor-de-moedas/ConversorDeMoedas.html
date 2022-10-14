@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Moeda</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <script src="codConv.js"></script>
+    <header class="cabecalho">
+        <h1>Conversor de Moedas</h1>
+    </header>
+
+    <section class="page-subtitle">Digite o valor da moeda para ser convertido</section>
+    
+<main>
+    
+        <div id="conversor">
+            <input type="number" id="input" placeholder="BRL">
+            <br>
+            =
+         <br>
+           <input type="text" id="output" readonly placeholder="USD"><br>
+            <select id="select">
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+                <option value="iene">Iene</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+        </div>
+
+    <div class="btnConverter">
+        <button class="converter" id="btnConverter" type="submit" onclick="Converter()">Converter</button>
+    </div>
+        <p>
+            
+</main>
+    
+<script  src="codConv.js"></script>
+</body>
+</html>

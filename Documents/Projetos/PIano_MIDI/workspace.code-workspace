@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "HTML5 +CSS3",
+			"path": "..\\..\\Front-End\\HTML5 +CSS3"
+		},
+		{
+			"name": "aluramidi",
+			"path": "..\\..\\Logica de Programacao\\aluramidi"
+		},
+		{
+			"name": "Sistema-Chacal",
+			"path": "..\\Sistema-Chacal"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "aluramidi",
+		"git.ignoreLimitWarning": true
+	}
+}
